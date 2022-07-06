@@ -1,0 +1,83 @@
+body{
+    font-family: sans-serif;
+    width: 50%;
+    margin: 0 auto;
+color: white;
+    background-color: black;
+    
+}
+.content{
+    width: 360px;
+}
+header{
+    background-color:red;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+/*clear float aftet the header*/
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.input{
+    width: 75%;
+    margin: 0;
+    border: none;
+    font-size: 16pxpx;
+    padding: 10px;
+    float: left;
+}
+.addbtn{
+    position: absolute;
+    right: 30%;
+    padding: 10px;
+    width: 6%;
+    background-color: black;
+    color: white;
+    float: left;
+    text-align:center ;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+.list{
+    margin-top: 25px;
+}
+.list li{
+    background-color:white;
+    padding: 10px;
+    width: 70%;
+    cursor: pointer;
+    color:black;
+    font-size: 20px;
+}
+.list li:hover{
+    background-color: red;
+}
+.deletebtn{
+    position: relative;
+    bottom: 30px;
+    left: 60%;
+    background-color: black;
+    color:white;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+.task{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+    
+
+
+
+
+
