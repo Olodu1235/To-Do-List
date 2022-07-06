@@ -12,7 +12,7 @@ button.classList.add("deletebtn")
 button.style.marginLeft="20px";
 button.innerHTML="Delete";
 if(input.value===""){
-   alert("put somthing")
+   alert("Add a task...")
    return false
 }
 
